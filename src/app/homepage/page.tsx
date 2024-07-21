@@ -1,15 +1,13 @@
 import React from "react";
-import Featured from '@/components/Featured'
-import Offer from '@/components/Offer'
+import Options from "@/components/Options";
+
 
 
 const Homepage = () =>
     {
         return (
             <main>
-                <Featured/>
-                <Offer/>
-               
+              <Options/> 
             </main>
 
         )
